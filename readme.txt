@@ -1,0 +1,2 @@
+g++ -g -std=c++14 /usr/lib/libgtest.so /usr/lib/libgtest_main.so /usr/lib/libgmock.so /usr/lib/libgmock_main.so -pthread -o build/main-ut tests/test_main.cpp tests/PizzeriaTest.cpp src/Pizza.cpp src/Pizzeria.cpp src/Funghi.cpp src/Margherita.cpp src/Clock.cpp
+g++ -g -std=c++14 /usr/lib/libgtest.so /usr/lib/libgtest_main.so /usr/lib/libgmock.so /usr/lib/libgmock_main.so -pthread -o build/main-ut tests/test_main.cpp tests/PizzeriaTest.cpp src/Pizza.cpp src/Pizzeria.cpp src/Funghi.cpp src/Margherita.cpp src/Clock.cpp

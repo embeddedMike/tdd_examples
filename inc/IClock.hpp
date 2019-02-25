@@ -3,8 +3,7 @@
 
 using minutes = std::chrono::seconds;
 
-struct IClock
-{
-    virtual void waitFor(minutes m) = 0;
-    virtual ~IClock() {};
+struct IClock {
+  virtual void waitFor(minutes m) = 0;
+  virtual ~IClock(){};
 };
